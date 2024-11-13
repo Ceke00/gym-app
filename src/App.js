@@ -9,6 +9,8 @@ import "./custom.scss";
 //import videoData from "./data/videos.json";
 import Footer from "./components/Footer";
 import ErrorPage from "./pages/ErrorPage";
+import './images/logo.png'; // Adjust the path if needed
+
 //import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
