@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+$primary: #14385F;
+$primary-subtle:#74B7FF;
+$secondary: #4A433E;
+$secondary-subtle:#E4D7CE;
+$success: #4E4D29;
+$success-subtle:#DBD876;
+$info: #0d676a;
+$info-subtle: #a5f5f7;
+$warning: #f8e288; 
+$danger: #8F1111; 
+$danger-subtle: #F89090; 
+$light:#E9EAEB;
+$dark: #222; 
+
+:root {
+  --primary: #{$primary};
+  --primary-subtle:#($primary-subtle);
+  --secondary: #{$secondary};
+   --secondary-subtle: #{$secondary-subtle};
+  --success: #{$success};
+  --success-subtle: #{$success-subtle};
+  --info:#{$info};
+  --info-subtle:#{$info-subtle};
+  --warning: #{$warning};
+  --danger: #{$danger};
+  --danger-subtle: #{$danger-subtle};
+  --light: #{$light};
+  --dark: #{$dark};
+  
+}
+
+$body-color:$light;
+$body-bg: $dark;
+
+$font-family-base: 'Quicksand', sans-serif;
+$headings-font-family: 'Quicksand', sans-serif;
+$font-size-base: 1rem;
+
+@import "~bootstrap/scss/bootstrap";
+

@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./pages/Home";
+//import About from "./components/About";
+//import VideoList from "./components/VideoList";
+import React from "react";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { Container } from "react-bootstrap";
+import NavBar from "./components/NavBar";
+import "./custom.scss";
+//import videoData from "./data/videos.json";
+import Footer from "./components/Footer";
+import ErrorPage from "./pages/ErrorPage";
+//import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      {/* <ScrollToTop /> */}
+      <NavBar />
+
+    
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/*" element={<ErrorPage />} />
+        </Routes>
+        <Footer />
+
+    </Router>
   );
 }
 
