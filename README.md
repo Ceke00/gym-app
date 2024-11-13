@@ -1,4 +1,4 @@
-## Group project gym app testing...
+## Group project gym app test
 
 # Getting Started with Create React App
 
