@@ -6,6 +6,7 @@ function Home() {
   return (
     <div>
       <HeroSection/>
+      <p>Hej!</p>
     </div>
   )
 }
