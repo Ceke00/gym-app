@@ -1,0 +1,92 @@
+// src/components/Footer.scss
+
+.footer {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: 'Roboto', sans-serif;
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        gap: 20px;
+    }
+    &__logo-img {
+        max-width: 150px; // Adjust as needed
+        margin-bottom: 10px;
+        transition: transform 0.3s ease;
+    }
+    
+
+    
+    &__section {
+        flex: 1;
+        min-width: 200px;
+        margin: 10px 0;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: translateY(-5px); // Subtle lift effect on hover
+        }
+
+        h4 {
+            color: #ff6f61; // Accent color
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        p, li, a {
+            font-size: 0.9em;
+            color: #ccc;
+            line-height: 1.6;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li, a {
+            margin: 5px 0;
+
+            &:hover {
+                color: #ff6f61; // Same accent color on hover
+            }
+        }
+    }
+
+    &__social-icons {
+        display: flex;
+        gap: 15px;
+        margin-top: 10px;
+
+        a {
+            color: #fff;
+            font-size: 1.5em;
+            transition: color 0.3s ease, transform 0.3s ease;
+
+            &:hover {
+                color: #ff6f61; // Accent color on hover
+                transform: scale(1.1); // Slightly increase size on hover
+            }
+        }
+    }
+
+    &__bottom {
+        margin-top: 30px;
+        font-size: 0.85em;
+        color: #777;
+        text-align: center;
+        border-top: 1px solid #333;
+        padding-top: 15px;
+    }
+}
