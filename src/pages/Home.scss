@@ -1,0 +1,19 @@
+#bg-image {
+  background-image: url(/images/man_push_500.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  background-position: center;
+}
+
+@media only screen and (min-width: 577px) {
+  #bg-image {
+    background-image: url(/images/man_push_900.webp);
+  }
+}
+@media only screen and (min-width: 769ppx) {
+  #bg-image {
+    background-image: url(/images/man_push_1400.webp);
+  }
+}
