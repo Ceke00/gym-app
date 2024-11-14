@@ -1,5 +1,5 @@
 #bg-image {
-  background-image: url(/images/man_push_500.webp);
+  background-image: url(/images/meditation_500.webp);
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -9,11 +9,11 @@
 
 @media only screen and (min-width: 577px) {
   #bg-image {
-    background-image: url(/images/man_push_900.webp);
+    background-image: url(/images/meditation_900.webp);
   }
 }
 @media only screen and (min-width: 769ppx) {
   #bg-image {
-    background-image: url(/images/man_push_1400.webp);
+    background-image: url(/images/meditation_1400.webp);
   }
 }
