@@ -10,6 +10,8 @@ import "./custom.scss";
 import Footer from "./components/Footer";
 import ErrorPage from "./pages/ErrorPage";
 import './images/logo.png'; // Adjust the path if needed
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 //import ScrollToTop from "./components/ScrollToTop";
 
