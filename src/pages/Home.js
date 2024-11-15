@@ -11,7 +11,7 @@ function Home() {
       <HeroSection />
       <CardSection />
       <div id="bg-image" className="my-5"></div>
-      <HalfSection />
+      <HalfSection section="home" />
       <Testimonials />
     </div>
   );
