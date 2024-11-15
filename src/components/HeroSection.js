@@ -1,31 +1,34 @@
 import React from "react";
 import "./HeroSection.scss";
-import hero from "../videos/hero.mp4";
+import heroVideo from "../videos/hero.mp4";
+import { Link } from "react-router-dom";
+import { Container } from "react-bootstrap";
 
 function HeroSection() {
   return (
-    <section className="hero" id="home">
-      <div className="hero-content">
+    <header className="hero" id="home">
+      <Container fluid="lg" className="hero-content">
         <h1>Stay fit and get the body you want</h1>
         <p>Get one free PT-training session.</p>
-        <a href="#about" className="btn">
+        <Link to="/becomemember" className="btn btn-warning">
           Join Now
-        </a>
-      </div>
-
+        </Link>
+      </Container>
+      <div className="hero-mobile-bg"></div>
       <div className="hero-video">
         <video
           id="bg-video"
-          src={hero}
+          src={heroVideo}
           width="100%"
           height="100%"
           autoPlay
           loop
           muted
           controls={false}
+          playsInline
         ></video>
       </div>
-    </section>
+    </header>
   );
 }
 

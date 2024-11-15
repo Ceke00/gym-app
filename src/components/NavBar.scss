@@ -1,21 +1,16 @@
 .navbar {
   .navbar-brand {
-    color: var(--primary-subbtle);
-    width: 300px;
-    height: auto;
 
-    &:hover,
-    &:focus {
-      color: var(--primary-subtle);
-    }
+
     &:focus {
       outline: var(--warning) solid 2px;
     }
   }
+  #logo{width:200px;}
   .nav-link {
     color: var(--light);
     margin-right: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
 
     &:not(.active):hover {
@@ -28,7 +23,7 @@
       color: var(--warning) !important;
 
       &::before {
-        content: "☆ ";
+        content: "➤ ";
       }
     }
     &:focus {
@@ -51,6 +46,9 @@
     .navbar-collapse {
       padding-top: 2rem;
     }
+     #signBtn{
+    width:fit-content;}
+  
   }
 }
 @media (max-width: 768px) {
@@ -58,5 +56,5 @@
     .navbar-brand {
       width: 200px;
     }
-  }
+}
 }

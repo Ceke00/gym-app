@@ -1,24 +1,23 @@
 import React, { useState } from "react";
 import "./NavBar.scss";
-import { NavLink } from "react-router-dom";
-import { Navbar, Nav, Container } from "react-bootstrap";
-//import logo from "../images/logo.svg";
+import { NavLink, Link } from "react-router-dom";
+import { Navbar, Nav, Container} from "react-bootstrap";
+import logo from "../images/logo2.png";
 
 function NavBar() {
   //navbar extended or not
   const [expanded, setExpanded] = useState(false);
-
+ 
   // Closing navbar
   const closeNavbar = () => {
     setExpanded(false);
   };
   return (
     <Navbar expanded={expanded} onToggle={setExpanded} expand="lg">
-      <Container className="mb-5 mt-3">
+      <Container fluid="xl" className="container-fluid">
         <Navbar.Brand as={NavLink} to="/" onClick={closeNavbar}>
-          {/* <img id="logo" src={logo} alt="Till startsida för Relaxguiden" /> */}
+          <img id="logo" src={logo} alt="To home page of Home Fitness" />
         </Navbar.Brand>
-
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           onClick={() => setExpanded((expanded) => !expanded)}
@@ -33,18 +32,9 @@ function NavBar() {
                 isActive ? "active nav-link" : "nav-link"
               }
             >
-              Hem
+              Home
             </Nav.Link>
-            <Nav.Link
-              as={NavLink}
-              to="/videotips"
-              onClick={closeNavbar}
-              className={({ isActive }) =>
-                isActive ? "active nav-link" : "nav-link"
-              }
-            >
-              Videotips
-            </Nav.Link>
+
             <Nav.Link
               as={NavLink}
               to="/about"
@@ -53,8 +43,16 @@ function NavBar() {
                 isActive ? "active nav-link" : "nav-link"
               }
             >
-              Om
+              About
             </Nav.Link>
+            <Link
+              to="/loginpage"
+              id="signBtn"
+              className="btn btn-outline-warning"
+              onClick={closeNavbar}
+            >
+              Sign In
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
