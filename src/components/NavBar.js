@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./NavBar.scss";
 import { NavLink, Link } from "react-router-dom";
 import { Navbar, Nav, Container} from "react-bootstrap";
-import logo from "../images/logo.png";
+import logo from "../images/logo2.png";
 
 function NavBar() {
   //navbar extended or not
