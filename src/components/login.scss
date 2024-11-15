@@ -1,0 +1,26 @@
+
+.linkSignup {
+    position: relative;  // Ensure the link is positioned correctly for the pseudo-element
+  
+  
+    &:hover {
+      color: var(--warning) !important;  // Optional: Change color on hover, with fallback color
+    }
+  
+    &::before {
+      content: "-->";
+      position: absolute;
+      left: -1.5rem;  // Position the star to the left of the link text (adjust based on design)
+      top: 50%;  // Vertically center the star relative to the link text
+      transform: translateY(-50%);  // Adjust vertical alignment
+      opacity: 0;  // Initially hide the star
+      transition: opacity 0.3s ease, left 0.3s ease;  // Smooth transition for opacity and positioning
+      color: var(--warning) !important;
+    }
+  
+    &:hover::before {
+      opacity: 1;  // Show the star on hover
+      left: -2rem;  // Adjust the position when hovered (move it further left, or modify as needed)
+    }
+  }
+  

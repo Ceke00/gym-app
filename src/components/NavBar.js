@@ -55,6 +55,17 @@ function NavBar() {
             >
               Om
             </Nav.Link>
+            <Nav.Link
+              as={NavLink}
+              to="/loginpage"
+              onClick={closeNavbar}
+              className={({ isActive }) =>
+                isActive ? "active nav-link" : "nav-link"
+              }
+            >
+              Login
+            </Nav.Link>
+         
           </Nav>
         </Navbar.Collapse>
       </Container>
