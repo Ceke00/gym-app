@@ -1,15 +1,14 @@
 import React from 'react'
 import HeroSection from '../components/HeroSection'
-import Testimonials from '../components/Testimonials'
+
 
 function Home() {
   return (
     <div>
       <HeroSection/>
-      <Testimonials/>
-      
+      <p>Hej!</p>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
