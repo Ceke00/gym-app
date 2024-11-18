@@ -27,7 +27,7 @@ function LoginPage() {
             </Form.Group>
             <a href="#">
               <p className="text-white linkSignup">
-                Not a member already? - become a member here
+                Not a member already? - become a member here :)
               </p>
             </a>
             <Button variant="primary" type="submit">
