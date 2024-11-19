@@ -12,9 +12,9 @@ function HalfSection({ section }) {
   }, [section]);
 
   return (
-    <Container fluid="lg" className="half-section">
+    <Container fluid="lg" className="half-section my-5">
       {content.map((item, index) => (
-        <Row key={index} className="d-flex flex-column flex-md-row">
+        <Row key={index} className="d-flex flex-column flex-md-row my-4">
           <Col md={6}>
             <h2>{item.heading}</h2>
             {item.paragraphs.map((paragraph, pIndex) => (

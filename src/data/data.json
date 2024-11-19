@@ -2,7 +2,7 @@
   "home": {
     "content": [
       {
-        "heading": "Our exclusive membership :)",
+        "heading": "Our exclusive membership",
         "paragraphs": [
           "Get access to exclusive training videos wherever you are. We have more than 2000 different training videos and around 30 live classes every week",
           "Improve your skills with our expert trainers. As a member you have access to your personal trainer once a month for 30 minutes."
@@ -15,13 +15,13 @@
   "about": {
     "content": [
       {
-        "heading": "About Our Exclusive Membership",
+        "heading": "Our Exclusive Membership",
         "paragraphs": [
           "Our membership offers unparalleled access to a wide range of training resources. Whether you're a beginner or an advanced athlete, we have something for you.",
           "Our expert trainers are here to guide you every step of the way. Enjoy personalized training sessions and improve your fitness journey with us."
         ],
         "alt": "Man exercising in his home",
-        "image": "/images/brygga_750.webp"
+        "image": "/images/push_comp_750.webp"
       },
       {
         "heading": "Our Mission",
@@ -29,8 +29,8 @@
           "We aim to provide the best fitness training experience possible. Our mission is to help you achieve your fitness goals in a supportive and motivating environment.",
           "Join our community and start your fitness journey with us today!"
         ],
-        "alt": "Trainer helping a client",
-        "image": "/images/trainer_helping_client.webp"
+        "alt": "Woman stretching in front of computer",
+        "image": "/images/split_750.webp"
       }
     ]
   }
