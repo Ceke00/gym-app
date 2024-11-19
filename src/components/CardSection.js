@@ -1,9 +1,10 @@
 import React from "react";
 import Card from "./Card"; // Importing the Card component
+import { Container } from "react-bootstrap";
 
-import image1 from "../images/pexels-823sl-2294361.jpg";
-import image2 from "../images/pexels-pixabay-416778.jpg";
-import image3 from "../images/pexels-pixabay-209983.jpg";
+import image1 from "../images/man_push_400.webp";
+import image2 from "../images/woman_exc_400.webp";
+import image3 from "../images/push_man2_400.webp";
 
 function CardSection() {
   // Define an array of card data, passing imported images
@@ -14,17 +15,17 @@ function CardSection() {
   ];
 
   return (
-    <div className="container">
-      <div className="cardsSection row ms-auto me-auto p-5">
+    <Container fluid="lg">
+      <div className="cardsSection row ms-auto me-auto my-5">
         <h2 className="text-left mb-2">New classes</h2>
         {cardData.map((data) => (
-          <div key={data.id} className="col-md-4 card">
+          <div key={data.id} className="col-md-4 g-4 card">
             <Card image={data.image} title={data.title} />{" "}
             {/* Passing the correct props */}
           </div>
         ))}
       </div>
-    </div>
+    </Container>
   );
 }
 
