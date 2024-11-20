@@ -10,12 +10,12 @@ import NavBar from "./components/NavBar";
 import "./custom.scss";
 import Footer from "./components/Footer";
 import ErrorPage from "./pages/ErrorPage";
-//import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
-      {/* <ScrollToTop /> */}
+       <ScrollToTop /> 
       <NavBar />
 
       <Routes>
