@@ -1,8 +1,8 @@
 .footer {
+  border-top:1px solid var(--primary);
   background:var(--dark);
   color:var(--secondary);
   padding: 40px 20px;
-  font-family: 'Roboto', sans-serif;
 
   &__container {
     display: flex;
@@ -25,17 +25,17 @@
     min-width: 200px;
     margin: 10px 0;
 
-    h4 {
+    h2 {
       color: var(--danger-subtle); /* Accent color */
       margin-bottom: 15px;
-      font-size: 1em;
+      font-size: 1rem;
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 1px;
     }
 
     p, li, a {
-      font-size: 0.9em;
+      font-size: 0.9rem;
       color: var(--light);
       line-height: 1.6;
       text-decoration: none;
@@ -59,11 +59,10 @@
 
     a {
       color: var(--light); /* Default icon color */
-      font-size: 1.5em; /* Icon size */
+      font-size: 1.5rem; /* Icon size */
       transition: color 0.3s ease, transform 0.3s ease;
 
       &:hover {
-        color: var(--danger-subtle); /* Accent color on hover */
         transform: scale(1.2); /* Slight zoom effect on hover */
       }
     }
@@ -71,8 +70,8 @@
 
   &__bottom {
     margin-top: 30px;
-    font-size: 0.85em;
-    color:var(--secondary);
+    font-size: 0.85rem;
+    color:var(--light);
     text-align: center;
     border-top: 1px solid var(--primary);
     padding-top: 15px;

@@ -34,7 +34,7 @@ const Testimonials = () => {
                                     className="card-img-top rounded-circle"
                                 />
                                 <div className="card-body">
-                                    <h5 className="card-title">{testimonial.name}</h5>
+                                    <h3 className="card-title">{testimonial.name}</h3>
                                     <p className="card-text">"{testimonial.review}"</p>
                                 </div>
                             </div>
