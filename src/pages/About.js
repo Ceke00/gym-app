@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap';
 function About() {
   return (
     <>
-      <header id="bg-image">
+      <header id="bg-image-about">
         <Container fluid="lg">
           <h1>About Home Fitness </h1>
         </Container>
