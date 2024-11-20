@@ -1,0 +1,12 @@
+.card-component{
+    border-width: 0 !important;
+
+    &:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: var(--primary)!important;
+   
+  }
+
+}

@@ -1,16 +1,25 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import CardComponent from "react-bootstrap/Card";
+//import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import "./Card.scss";
 
-function Card({ image, title }) {
+function Card({ image, title, description }) {
   return (
-    <CardComponent style={{ width: "100%" }}>
-      <CardComponent.Img variant="top" src={image} className="img-fluid" />
-      <CardComponent.Body>
-        <CardComponent.Title>{title}</CardComponent.Title>
-        <Button variant="primary">Get more information</Button>
-      </CardComponent.Body>
-    </CardComponent>
+    <Link to="/userpage" className="text-decoration-none">
+      <CardComponent
+        className="card-component bg-dark cursor-pointer"
+        style={{ width: "100%" }}
+      >
+        <CardComponent.Img variant="top" src={image} className="img-fluid" />
+        <CardComponent.Body>
+          <CardComponent.Title>
+            {title}
+          </CardComponent.Title>
+          <CardComponent.Text>{description}</CardComponent.Text>
+        </CardComponent.Body>
+      </CardComponent>
+    </Link>
   );
 }
 

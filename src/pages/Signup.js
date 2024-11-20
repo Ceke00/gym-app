@@ -40,16 +40,6 @@ function Signup() {
               <Form.Control type="password" placeholder="Enter Social security number" />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicAddress">
-              <Form.Label>Home address</Form.Label>
-              <Form.Control type="password" placeholder="Enter Home address" />
-            </Form.Group>
-
-            <Form.Group className="mb-3" controlId="formBasicZip">
-              <Form.Label>Zip code</Form.Label>
-              <Form.Control type="number" placeholder="Enter zip code" />
-            </Form.Group>
-
             <Form.Group className="mb-3" controlId="formBasicPhone">
               <Form.Label>Phone number</Form.Label>
               <Form.Control type="number" placeholder="Enter phone number" />
