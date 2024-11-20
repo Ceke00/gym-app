@@ -1,30 +1,23 @@
-.link {
-  text-decoration: none;
-}
-
 .linkSignup {
-  position: relative; 
-  text-decoration: none !important;
+  position: relative;
 
   &:hover {
-    color: var(
-      --warning
-    ) !important; 
+    color: var(--warning) !important;
   }
 
   &::before {
-    content: "-->";
+    content: "➤";
     position: absolute;
-    left: -1.5rem; 
-    top: 50%; 
-    transform: translateY(-50%); 
-    opacity: 0; 
-    transition: opacity 0.3s ease, left 0.3s ease; 
+    left: -1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease, left 0.3s ease;
     color: var(--warning) !important;
   }
 
   &:hover::before {
-    opacity: 1; 
-    left: -2rem; 
+    opacity: 1;
+    left: -2rem;
   }
 }

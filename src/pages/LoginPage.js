@@ -11,7 +11,6 @@ function LoginPage() {
         <div className="md-col-8 me-auto ms-auto p-5">
           <h2>Login</h2>
           <Form>
-         
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
               <Form.Control type="email" placeholder="Enter email" />
@@ -23,20 +22,21 @@ function LoginPage() {
             <Form.Group className="mb-3" controlId="formBasicPassword">
               <Form.Label>Password</Form.Label>
               <Form.Control type="password" placeholder="Enter a password" />
-            </Form.Group>        
-          
-            <Link to="/signup" className="link"> {/* Use Link to route to Signup.js */}
-              <p className="text-white linkSignup" style={{ textDecoration: 'none' }}>
-                Not a member already? - become a member here
+            </Form.Group>
+
+            <Link to="/signup" className="link link-offset-2 text-light">
+              {" "}
+              {/* Use Link to route to Signup.js */}
+              <p className="linkSignup">
+                Not a member already? Become a member here
               </p>
             </Link>
 
             <Link to="/userpage">
-            <Button variant="primary" type="submit">
-              Continue
-            </Button>
+              <Button variant="primary" type="submit">
+                Continue
+              </Button>
             </Link>
-
           </Form>
         </div>
       </div>

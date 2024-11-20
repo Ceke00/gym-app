@@ -19,7 +19,11 @@ function Footer() {
         {/* Logo Section */}
         <div className="footer__section">
           <Link to="/">
-            <img src={logo} alt="GymApp Logo" className="footer__logo-img" />
+            <img
+              src={logo}
+              alt="To Home Page of Home Fitness"
+              className="footer__logo-img"
+            />
           </Link>
         </div>
 
@@ -47,7 +51,7 @@ function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="/usperpage" className="footer__link">
+              <Link to="/userpage" className="footer__link">
                 Online Coaching
               </Link>
             </li>
@@ -78,7 +82,7 @@ function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="about" className="footer__link">
+              <Link to="/about" className="footer__link">
                 Terms and Conditions
               </Link>
             </li>
@@ -93,8 +97,10 @@ function Footer() {
                 href="https://www.google.com/maps?q=Södergatan+24,+211+34+Malmö"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Find our location on Google Maps"
               >
                 <FaMapMarkerAlt className="footer-icon" />
+                <span className="visually-hidden">Opens in new window</span>
                 Södergatan 24, 211 34 Malmö
               </a>
             </li>
@@ -103,8 +109,10 @@ function Footer() {
                 href="https://wa.me/46040665550"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Contact us on WhatsApp"
               >
                 <FaPhoneAlt className="footer-icon" />
+                <span className="visually-hidden">Opens in new window</span>
                 040-665 56 50
               </a>
             </li>
@@ -115,6 +123,7 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaEnvelope className="footer-icon" />
+                <span className="visually-hidden">Opens in new window</span>
                 malmo@lexicon.se
               </a>
             </li>
@@ -129,29 +138,37 @@ function Footer() {
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Follow us on Facebook"
             >
               <FaFacebookF />
+              <span className="visually-hidden">Opens in new window</span>
             </a>
             <a
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Follow us on Twitter"
             >
               <FaTwitter />
+              <span className="visually-hidden">Opens in new window</span>
             </a>
             <a
               href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Follow us on Instagram"
             >
               <FaInstagram />
+              <span className="visually-hidden">Opens in new window</span>
             </a>
             <a
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Follow us on LinkedIn"
             >
               <FaLinkedinIn />
+              <span className="visually-hidden">Opens in new window</span>
             </a>
           </div>
         </div>

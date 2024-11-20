@@ -1,4 +1,4 @@
-import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 import Form from "react-bootstrap/Form";
 import "../custom.scss";
 import "../components/login.scss";
@@ -49,9 +49,9 @@ function Signup() {
               <Form.Check type="checkbox" label="I accept the terms and conditions" />
             </Form.Group>
            
-            <Button variant="primary" type="submit">
+            <Link className="btn btn-primary" to="/userpage">
               Continue
-            </Button>
+            </Link>
           </Form>
         </div>
       </div>
