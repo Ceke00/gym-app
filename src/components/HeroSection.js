@@ -10,7 +10,7 @@ function HeroSection() {
       <Container fluid="lg" className="hero-content">
         <h1>Stay fit and get the body you want</h1>
         <p>Get one free PT-training session.</p>
-        <Link to="/becomemember" className="btn btn-warning">
+        <Link to="/signup" className="btn btn-warning">
           Join Now
         </Link>
       </Container>
