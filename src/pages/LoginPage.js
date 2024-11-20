@@ -25,14 +25,18 @@ function LoginPage() {
               <Form.Control type="password" placeholder="Enter a password" />
             </Form.Group>        
           
-            <Link to="/signup"> {/* Use Link to route to Signup.js */}
-              <p className="text-white linkSignup">
+            <Link to="/signup" className="link"> {/* Use Link to route to Signup.js */}
+              <p className="text-white linkSignup" style={{ textDecoration: 'none' }}>
                 Not a member already? - become a member here
               </p>
             </Link>
+
+            <Link to="/userpage">
             <Button variant="primary" type="submit">
               Continue
             </Button>
+            </Link>
+
           </Form>
         </div>
       </div>
