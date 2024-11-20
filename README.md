@@ -18,9 +18,9 @@ This project is a collaborative effort by Cecilia Egevad, Hasan Iqram, and Vikto
 The primary goal of this project was to familiarize ourselves with collaborative development using GitHub and other digital platforms. We aimed to enhance our teamwork skills and learn how to manage a project in a version-controlled environment.
 
 ## Contributors
--- **Cecilia Egevad (Ceke00)**
--- **Hasan Iqram (hiqram)**
--- **Viktor Ciganovic (VikorCiganovic-collab)**
+- **Cecilia Egevad (Ceke00)**
+- **Hasan Iqram (hiqram)**
+- **Viktor Ciganovic (VikorCiganovic-collab)**
 
 ## Acknowledgements
-A special thanks to Alan Sweeney (al-swe) for his patience and excellent guidance on how to collaborate on GitHub.
+A special thanks to **Alan Sweeney (al-swe)** for his patience and excellent guidance on how to collaborate on GitHub.
