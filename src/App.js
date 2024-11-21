@@ -5,7 +5,7 @@ import Signup from "./pages/Signup";
 
 import UserPage from "./pages/UserPage";
 import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import "./custom.scss";
 import Footer from "./components/Footer";
