@@ -2,9 +2,10 @@ import React from 'react';
 import {Container} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import "./ErrorPage.scss";
-
-function ErrorPage() {
+import { Helmet } from 'react-helmet';function ErrorPage() {
   return (
+    <>
+    <Helmet><title>ErrorPage Home Fitness</title></Helmet>
     <Container className="my-5">
       <h1>Oops!</h1>
       <p>Something went wrong.</p>
@@ -15,6 +16,7 @@ function ErrorPage() {
         </Link>{" "}
       </p>
     </Container>
+    </>
   );
 }
 

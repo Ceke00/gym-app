@@ -1,6 +1,5 @@
 import React from "react";
 import CardComponent from "react-bootstrap/Card";
-//import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Card.scss";
 

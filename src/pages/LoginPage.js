@@ -1,11 +1,13 @@
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import { Link } from "react-router-dom"; // Import Link
+import { Link } from "react-router-dom"; 
 import "../custom.scss";
 import "../components/login.scss";
-
+import { Helmet } from 'react-helmet';
 function LoginPage() {
   return (
+    <>
+        <Helmet><title>login Page Home Fitness</title></Helmet>
     <div className="container">
       <div className="row">
         <div className="md-col-8 me-auto ms-auto p-5">
@@ -41,6 +43,7 @@ function LoginPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

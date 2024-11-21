@@ -6,6 +6,7 @@ import { Helmet } from 'react-helmet';
 function About() {
   return (
     <>
+        <Helmet><title>About Home Fitness</title></Helmet>
       <header id="bg-image-about">
         <Container fluid="lg">
           <h1>About Home Fitness </h1>

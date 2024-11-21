@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card"; // Importing the Card component
+import Card from "./Card";
 import { Container } from "react-bootstrap";
 
 import image1 from "../images/man_push_400.webp";
@@ -7,8 +7,7 @@ import image2 from "../images/woman_exc_400.webp";
 import image3 from "../images/push_man2_400.webp";
 
 function CardSection() {
-  // Define an array of card data, passing imported images
-  const cardData = [
+   const cardData = [
     {
       id: 1,
       image: image1,

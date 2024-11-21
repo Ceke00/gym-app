@@ -58,12 +58,12 @@
     margin-top: 10px;
 
     a {
-      color: var(--light); /* Default icon color */
-      font-size: 1.5rem; /* Icon size */
+      color: var(--light);
+      font-size: 1.5rem; 
       transition: color 0.3s ease, transform 0.3s ease;
 
       &:hover {
-        transform: scale(1.2); /* Slight zoom effect on hover */
+        transform: scale(1.2);
       }
     }
   }
@@ -87,7 +87,7 @@
   transition: color 0.3s ease;
 
   &:hover {
-    color: var(--warning); /* Change hover color */
+    color: var(--warning); 
   }
 
   &::after {
@@ -97,30 +97,30 @@
     bottom: -2px;
     width: 0;
     height: 2px;
-    background: linear-gradient(90deg, var(--danger-subtle), var(--warning)); /* Gradient underline */
+    background: linear-gradient(90deg, var(--danger-subtle), var(--warning));
     transition: width 0.3s ease;
   }
 
   &:hover::after {
-    width: 100%; /* Full width underline on hover */
+    width: 100%; 
   }
 
   &:hover {
-    transform: scale(1.1); /* Slight zoom effect */
+    transform: scale(1.1); 
   }
 }
 
 .footer-icon {
-  color: var(--light); /* Change as needed */
+  color: var(--light); 
   margin-right: 10px;
   font-size: 1.2rem;
-  transition: transform 0.2s ease; /* Smooth icon hover effect */
+  transition: transform 0.2s ease; 
 }
 
 .footer__section a:hover .footer-icon {
-  transform: scale(1.2); /* Slightly enlarge the icon on hover */
+  transform: scale(1.2); 
 }
 
 .footer__section a:hover {
-  color: var(--info-subtle); /* Change link color on hover */
+  color: var(--info-subtle);
 }

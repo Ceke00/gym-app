@@ -2,9 +2,11 @@ import { Link } from "react-router-dom";
 import Form from "react-bootstrap/Form";
 import "../custom.scss";
 import "../components/login.scss";
-
+import { Helmet } from 'react-helmet';
 function Signup() {
   return (
+    <>
+    <Helmet><title>Signup Page Home Fitness</title></Helmet>
     <div className="container">
       <div className="row">
         <div className="md-col-8 me-auto ms-auto p-5">
@@ -56,6 +58,7 @@ function Signup() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

@@ -4,9 +4,12 @@ import CardSection from "../components/CardSection";
 import HalfSection from "../components/HalfSection";
 import Testimonials from "../components/Testimonials";
 import "./Home.scss";
+import { Helmet } from 'react-helmet';
 
 function Home() {
   return (
+    <>
+        <Helmet><title>Home Page Home Fitness</title></Helmet>
     <div>
       <HeroSection />
       <CardSection />
@@ -14,6 +17,7 @@ function Home() {
       <HalfSection section="home" />
       <Testimonials />
     </div>
+    </>
   );
 }
 
