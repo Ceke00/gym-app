@@ -2,7 +2,7 @@ import React from 'react'
 import HalfSection from "../components/HalfSection"
 import "./About.scss"
 import { Container } from 'react-bootstrap';
-
+import { Helmet } from 'react-helmet';
 function About() {
   return (
     <>
