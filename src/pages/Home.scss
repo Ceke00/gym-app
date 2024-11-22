@@ -9,7 +9,7 @@
 
 @media only screen and (min-width: 577px) {
   #bg-image {
-      background-attachment: fixed;
+      
        height: 500px;
     background-image: url(../images/mom_900.webp);
   }
@@ -17,5 +17,6 @@
 @media only screen and (min-width: 769px) {
   #bg-image {
     background-image: url(../images/mom_1400.webp);
+    background-attachment: fixed;
   }
 }
